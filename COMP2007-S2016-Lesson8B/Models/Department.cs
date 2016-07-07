@@ -20,8 +20,9 @@ namespace COMP2007_S2016_Lesson8B.Models
             this.Courses = new HashSet<Course>();
         }
 
-        [Display(Name = "Department")]
+        
         public int DepartmentID { get; set; }
+        [Display(Name = "Department")]
         public string Name { get; set; }
         public decimal Budget { get; set; }
     

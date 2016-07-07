@@ -30,9 +30,9 @@
             @Html.DisplayFor(modelItem => item.Budget)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.DepartmentID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.DepartmentID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.DepartmentID })
+            @Html.ActionLink("Edit", "Edit", new { id = item.DepartmentID }, new { @class = "btn btn-primary" }) |
+            @Html.ActionLink("Details", "Details", new { id = item.DepartmentID }, new { @class = "btn btn-success" }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.DepartmentID }, new { @class = "btn btn-danger" })
         </td>
     </tr>
 }
